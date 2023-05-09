@@ -1,0 +1,43 @@
+
+body{
+  background-color: rgb(41, 38, 38) ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6%;
+    grid-template-rows: 40% 40% 40%;
+    justify-content: center;
+    padding-top: 20vh;
+    margin: auto;
+  }
+  .grid-item {
+    background-color: rgb(196, 77, 18);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .display-screen{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(212, 156, 114, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .plus,.minus,.multiply,.divide,.cc,.decimal,.equal{
+    background-color: rgb(196, 77, 18);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+   #form1{
+    width:82%;
+    margin:auto;
+    padding: 8%;
+    border-radius: 4px;
+    font-size: 30px;
+    direction: rtl;
+  } 
+
+  
+ 
